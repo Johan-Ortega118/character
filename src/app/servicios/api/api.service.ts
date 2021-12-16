@@ -10,7 +10,7 @@ import { ListCharacters } from 'src/app/modelos/listcharacters.interface';
 })
 export class ApiService {
 
-  url: string = "http://34.125.7.41:8126/Character-api"
+  url: string = "http://34.125.193.39:8098/Halo-api"
 
   constructor(private http: HttpClient) { }
 
