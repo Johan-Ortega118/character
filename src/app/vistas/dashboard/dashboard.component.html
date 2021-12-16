@@ -1,0 +1,29 @@
+<app-header></app-header>
+
+<br><br>
+<div class="container">
+  <h1>Characters List</h1>
+  <br>
+  <button type="button" class="btn btn-dark" (click)="entrar()">Add Character</button>
+  <br>
+  <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Series</th>
+          <th scope="col">Edad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let character of characters">
+          <th scope="row">{{ character.id }}</th>
+          <td>{{character.name}}</td>
+          <td>{{character.series}}</td>
+          <td>{{character.age}}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>  
+
+<app-footer></app-footer>
