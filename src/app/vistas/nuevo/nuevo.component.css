@@ -1,0 +1,17 @@
+label {
+	color: white;
+}
+
+div{
+	background-color: transparent;
+}
+
+button{
+	background-color: gray;
+	border-color: lightblue;
+	color: white; 
+}
+
+.btn:hover {
+	background-color: darkgray; 
+}
